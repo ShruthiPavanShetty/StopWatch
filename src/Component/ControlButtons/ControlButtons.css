@@ -1,0 +1,31 @@
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .controls button{
+        appearance: none;
+        background: none;
+        border: none;
+        outline: none;
+        user-select: none;
+        cursor:pointer;
+    
+        color: var(--light);
+        font-size: 1.125rem;
+        background-color: var(--primary);
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+    
+        transition : 0.4s;
+    }
+    
+    button:hover{
+        opacity: 0.7;
+    }
+    
+    button:active{
+        background-color: brown;
+    }
